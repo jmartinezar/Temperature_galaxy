@@ -1,0 +1,133 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+
+\title{Temperature in Active Galaxies nuclei}
+
+\begin{document}
+
+\maketitle
+
+\section{Temperatura y densidad de electrones en núcleos activos de galaxias}
+
+In an active core region, we can identify the broad-line region, where the particle density is on the order of $10^4\approx 10^6 cm^{−3}$ and the narrow-line region, where the particle density is on the order of $10^{3} cm^{−3}$ or lower. In the broad-line region, the particle density is so high that collisional effects, and the frequency at which collisions occur, prevent emissions related to spontaneous emission rates greater than $10^{−2}s^{−1}$ from happening. Particles are excited by collisions before spontaneous emission can occur. These transitions are therefore forbidden in these regions due to collisional effects.
+
+This type of emission does not manifest until the particle density drops low enough that the intervals between collisions allow for the observation of phenomena associated with spontaneous emission. In the narrow-line region, where the particle density permits the observation of these phenomena, we can determine the emissivity ratios for certain wavelengths based on the equilibrium relation for the population and depopulation rates of levels for the same ion.
+
+Electron Density: Based on the equilibrium conditions between the population and depopulation rates of two levels of the same ion, we can obtain the relationship between emissivities $j_{\nu}/j_{\nu'}$ for transitions between energy levels associated with frequencies  and $\nu$'. This relationship between emissivities is a function of the electron density and the temperature of the cloud. Therefore, knowing the temperature of a cloud allows us to estimate the electron density.
+
+To estimate the electron density, ions associated with dynamics of equivalent thermodynamic equilibrium are studied, where energy transfer is dominated by the movement of charges. Here, the temperature is solely due to the gas kinetics, and the particle density matches the gas density. Two ions that behave well observationally for estimating this parameter, under the described equilibrium condition, are singly ionized sulfur SII and singly ionized oxygen OII. For these ions, the relationships between the emissivities for the visible lines associated with their energy transitions are given as follows.
+
+\[
+\frac{\dot{j}_{6716}}{\dot{j}_{6731}} =
+\frac{A_{6716}}{A_{6731}} \frac{g(2D_{5/2})}{g(2D_{3/2})} 
+\frac{\left[1 + \frac{A_{6731} g(2D_{3/2})}{C N_e \Omega(4S_{3/2}, 2D_{3/2})}
++ \frac{\Omega(2D_{3/2}, 2D_{5/2})}{\Omega(4S_{3/2}, 2D_{3/2})}
++ \frac{\Omega(2D_{3/2}, 2D_{5/2})}{\Omega(4S_{3/2}, 2D_{5/2})}
+\right]}
+{\left[1 + \frac{A_{6716} g(2D_{5/2})}{C N_e \Omega(4S_{3/2}, 2D_{5/2})}
++ \frac{\Omega(2D_{3/2}, 2D_{5/2})}{\Omega(4S_{3/2}, 2D_{5/2})}
++ \frac{\Omega(2D_{3/2}, 2D_{5/2})}{\Omega(4S_{3/2}, 2D_{3/2})}
+\right]}
+\]
+
+for SII, and
+
+\[
+\frac{\dot{j}_{3729}}{\dot{j}_{3726}} =
+\frac{A_{3729}}{A_{3726}} \frac{g(2D_{5/2})}{g(2D_{3/2})} 
+\frac{\left[1 + \frac{A_{3726} g(2D_{3/2})}{C N_e \Omega(4S_{3/2}, 2D_{3/2})}
++ \frac{\Omega(2D_{3/2}, 2D_{5/2})}{\Omega(4S_{3/2}, 2D_{3/2})}
++ \frac{\Omega(2D_{3/2}, 2D_{5/2})}{\Omega(4S_{3/2}, 2D_{5/2})}
+\right]}
+{\left[1 + \frac{A_{3729} g(2D_{5/2})}{C N_e \Omega(4S_{3/2}, 2D_{5/2})}
++ \frac{\Omega(2D_{3/2}, 2D_{5/2})}{\Omega(4S_{3/2}, 2D_{5/2})}
++ \frac{\Omega(2D_{3/2}, 2D_{5/2})}{\Omega(4S_{3/2}, 2D_{3/2})}
+\right]}
+\]
+
+For singly ionized oxygen (\textbf{OII}):
+
+To implement these equations, we consider that, based on experiments in laboratories on Earth, we know that:
+
+\begin{enumerate}
+    \item For \textbf{SII}, the transition $^4S_{3/2} \leftrightarrow ^2D_{3/2}$ is associated with emission/absorption and spontaneous emission, producing photon emission at $\lambda = 6731$; and the transition $^4S_{3/2} \leftrightarrow ^2D_{5/2}$, associated likewise with emission/absorption and spontaneous emission, where photons are emitted at $\lambda = 6716$.
+
+    \item For \textbf{OII}, the transition $^4S_{3/2} \leftrightarrow ^2D_{3/2}$ is associated with emission/absorption and spontaneous emission, producing photon emission at $\lambda = 3726$; and the transition $^4S_{3/2} \leftrightarrow ^2D_{5/2}$, associated likewise with emission/absorption and spontaneous emission, where photons are emitted at $\lambda = 3729$.
+\end{enumerate}
+
+In both cases, $C = \frac{8.6 \times 10^{-6}}{T^{1/2}}$. These equations are used to determine the electron density $N_e$ of the clouds in question.
+
+The values $\Omega$ are known as collision strengths, providing information about collisions between particles. The values $g$ are the statistical weights of the atomic level in which an electron is located, calculated using $2J + 1$, with $J$ being the total angular momentum quantum number. The values $A_\nu$ express the probability of spontaneous transition between two levels, which produces a photon with a wavelength of $\nu$.
+
+For SII
+
+\[
+\Omega(^4S_{3/2}, ^2D_{3/2}) = 2.76
+\]
+
+\[
+\Omega(^4S_{3/2}, ^2D_{5/2}) = 4.14
+\]
+
+\[
+\Omega(^4D_{5/2}, ^2D_{3/2}) = 7.47
+\]
+
+\[
+g(^2D_{3/2}) = 2(3/2) + 1 = 4
+\]
+
+\[
+g(^2D_{5/2}) = 2(5/2) + 1 = 6
+\]
+
+\[
+A_{6731} = 8.8 \times 10^{-4}
+\]
+
+\[
+A_{6716} = 2.6 \times 10^{-4}
+\]
+
+\noindent
+And for \textbf{OII}
+
+\[
+\Omega(^4S_{3/2}, ^2D_{3/2}) = 0.536
+\]
+
+\[
+\Omega(^4S_{3/2}, ^2D_{5/2}) = 0.804
+\]
+
+\[
+\Omega(^4D_{5/2}, ^2D_{3/2}) = 1.17
+\]
+
+\[
+g(^2D_{3/2}) = 2(3/2) + 1 = 4
+\]
+
+\[
+g(^2D_{5/2}) = 2(5/2) + 1 = 6
+\]
+
+\[
+A_{3729} = 3.6 \times 10^{-5}
+\]
+
+\[
+A_{3726} = 1.6 \times 10^{-4}
+\]
+
+The behavior of functions with $T$ fixed and $N_e$ as independent variable is shown in Figure \ref{1}.
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[width=\linewidth]{1.pdf}
+  \caption{.}
+  \label{1}
+\end{figure}
+
+\end{document}
